@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "issue": "Electoral integrity and the right to protest",
+    "issueSlug": "eci-right-to-protest",
+    "window": {
+      "from": "2026-09-01",
+      "to": "2026-10-10"
+    },
+    "updatedAt": "2026-10-10T12:00:00+05:30",
+    "platformFocus": "instagram",
+    "sample": false,
+    "notice": "Follower counts are approximate and every status is being verified. Creators marked 'not checked yet' have not been reviewed, which says nothing about whether they posted.",
+    "tiers": [
+      {
+        "id": "t1",
+        "label": "Under 1M",
+        "league": "Spark league",
+        "max": 1000000
+      },
+      {
+        "id": "t2",
+        "label": "1M to 10M",
+        "league": "Bronze league",
+        "max": 10000000
+      },
+      {
+        "id": "t3",
+        "label": "10M to 50M",
+        "league": "Silver league",
+        "max": 50000000
+      },
+      {
+        "id": "t4",
+        "label": "50M to 100M",
+        "league": "Gold league",
+        "max": 100000000
+      },
+      {
+        "id": "t5",
+        "label": "100M to 500M",
+        "league": "Diamond league",
+        "max": 500000000
+      }
+    ]
+  },
+  "creators": [
+    {
+      "id": "dhruv-rathee",
+      "name": "Dhruv Rathee",
+      "category": "Education",
+      "followers": 9000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "dhruvrathee"
+      },
+      "status": "spoke",
+      "checkedAt": "2026-10-10",
+      "posts": [
+        {
+          "date": "2026-10-08",
+          "platform": "public",
+          "depth": 2,
+          "url": "https://scroll.in/article/1096273/why-are-they-stealing-our-votes-bengaluru-protest-brings-frustration-with-sir-to-the-fore",
+          "summary": "Joined the Freedom Park protest in Bengaluru on voting rights and the SIR",
+          "source": "Scroll"
+        }
+      ]
+    },
+    {
+      "id": "prakash-raj",
+      "name": "Prakash Raj",
+      "category": "Film",
+      "followers": 1500000,
+      "followersApprox": true,
+      "needsVerify": true,
+      "handles": {
+        "instagram": ""
+      },
+      "status": "spoke",
+      "checkedAt": "2026-10-10",
+      "posts": [
+        {
+          "date": "2026-10-08",
+          "platform": "public",
+          "depth": 3,
+          "url": "https://scroll.in/article/1096273/why-are-they-stealing-our-votes-bengaluru-protest-brings-frustration-with-sir-to-the-fore",
+          "summary": "Addressed the Freedom Park protest crowd and called for the SIR to be scrapped",
+          "source": "Scroll"
+        }
+      ]
+    },
+    {
+      "id": "virat-kohli",
+      "name": "Virat Kohli",
+      "category": "Sport",
+      "followers": 270000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "virat.kohli"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "shraddha-kapoor",
+      "name": "Shraddha Kapoor",
+      "category": "Film",
+      "followers": 94000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "shraddhakapoor"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "priyanka-chopra",
+      "name": "Priyanka Chopra",
+      "category": "Film",
+      "followers": 92000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "priyankachopra"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "alia-bhatt",
+      "name": "Alia Bhatt",
+      "category": "Film",
+      "followers": 86000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "aliaabhatt"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "deepika-padukone",
+      "name": "Deepika Padukone",
+      "category": "Film",
+      "followers": 80000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "deepikapadukone"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "katrina-kaif",
+      "name": "Katrina Kaif",
+      "category": "Film",
+      "followers": 80000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "katrinakaif"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "neha-kakkar",
+      "name": "Neha Kakkar",
+      "category": "Music",
+      "followers": 78000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "nehakakkar"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "salman-khan",
+      "name": "Salman Khan",
+      "category": "Film",
+      "followers": 70000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "beingsalmankhan"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "akshay-kumar",
+      "name": "Akshay Kumar",
+      "category": "Film",
+      "followers": 67000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "akshaykumar"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "ms-dhoni",
+      "name": "MS Dhoni",
+      "category": "Sport",
+      "followers": 49000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "mahi7781"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "shah-rukh-khan",
+      "name": "Shah Rukh Khan",
+      "category": "Film",
+      "followers": 48000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "iamsrk"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "ranveer-singh",
+      "name": "Ranveer Singh",
+      "category": "Film",
+      "followers": 47000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "ranveersingh"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "rohit-sharma",
+      "name": "Rohit Sharma",
+      "category": "Sport",
+      "followers": 45000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "rohitsharma45"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "kartik-aaryan",
+      "name": "Kartik Aaryan",
+      "category": "Film",
+      "followers": 40000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "kartikaaryan"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "amitabh-bachchan",
+      "name": "Amitabh Bachchan",
+      "category": "Film",
+      "followers": 38000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "amitabhbachchan"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "carryminati",
+      "name": "CarryMinati",
+      "category": "Comedy",
+      "followers": 22000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "carryminati"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "bhuvan-bam",
+      "name": "Bhuvan Bam",
+      "category": "Comedy",
+      "followers": 20000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "bhuvan.bam22"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "ashish-chanchlani",
+      "name": "Ashish Chanchlani",
+      "category": "Comedy",
+      "followers": 16000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "ashishchanchlani"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "prajakta-koli",
+      "name": "Prajakta Koli",
+      "category": "Creator",
+      "followers": 8000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "mostlysane"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "ranveer-allahbadia",
+      "name": "Ranveer Allahbadia",
+      "category": "Podcast",
+      "followers": 7000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "beerbiceps"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "kusha-kapila",
+      "name": "Kusha Kapila",
+      "category": "Comedy",
+      "followers": 3500000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "kushakapila"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    }
+  ]
+}
