@@ -1,3 +1,59 @@
 name,instagram_handle,category,followers,status,post_url,post_date,depth,summary,notes
-EXAMPLE - delete this row,dhruvrathee,News,18000000,posted,https://instagram.com/p/exampleXYZ,2026-10-05,2,Posted about the SIR revision and voter list concerns,delete this row once you understand the format
-EXAMPLE - delete this row,virat.kohli,Sports,270000000,not_posted,,,,,"checked profile and Stories on 2026-10-09, nothing on the issue"
+Dhruv Rathee,dhruvrathee,News,18000000,posted,https://instagram.com/reel/DePOF8CAZj0/,2026-10-08,3,Spoke at a public event about transparency concerns in the electoral-roll revision process,Public coverage confirms participation in Bengaluru event; verify his own Instagram post URL if available
+Prakash Raj,prakashraaj,Film,1500000,posted,https://indianexpress.com/article/cities/bangalore/cjp-bangalore-protest-dhruv-rathee-prakash-raj-abhijeet-dipke-chappal-protest-sir-gyanesh-kumar-resignation-10911869/,2026-10-08,3,Addressed a public gathering regarding the electoral-roll revision process,Public coverage confirms participation and remarks at Bengaluru event
+Shabana Azmi,azmishabana18,Film,1000000,posted,https://www.hindustantimes.com/entertainment/bollywood/shabana-azmi-calls-for-mumbai-protest-over-voter-list-concerns-cjp-shivaji-park-101790935334487.html,2026-10-02,2,Shared a public video encouraging people to attend a protest concerning voter lists and voting rights,Instagram video referenced in public coverage; replace with direct Instagram URL if available
+Vishal Bhardwaj,vishalrbhardwaj,Film,500000,posted,https://www.indiatoday.in/movies/celebrities/story/shabana-azmi-vishal-bharadwaj-join-cjp-protest-against-electoral-roll-tampering-3008306-2026-10-02,2026-10-02,2,Attended a public protest concerning electoral-roll revision and voting rights,Public coverage confirms attendance at Mumbai event
+Vishal Dadlani,VishalDadlani,Music,700000,posted,https://www.indiatoday.in/movies/celebrities/story/shabana-azmi-vishal-bharadwaj-join-cjp-protest-against-electoral-roll-tampering-3008306-2026-10-02,2026-10-02,2,Attended a public protest concerning electoral-roll revision and voting rights,Public coverage confirms attendance at Mumbai event
+Rakhi Sawant,,Film,4000000,posted,https://www.thestatesman.com/entertainment/bollywood/kahaan-bhaag-gayi-kangana-rakhi-sawant-takes-a-dig-at-bjp-mp-backs-gen-z-in-sir-voter-list-controversy-1503646673.html,2026-10-04,1,Made public remarks about the electoral-roll revision controversy,Verify direct Instagram post or Story archive before final import
+Virat Kohli,virat.kohli,Sports,270000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Priyanka Chopra Jonas,priyankachopra,Film,90000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Alia Bhatt,aliaabhatt,Film,85000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Katrina Kaif,katrinakaif,Film,80000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Deepika Padukone,deepikapadukone,Film,80000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Narendra Modi,narendramodi,Politics,95000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Ranveer Singh,ranveersingh,Film,80000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Shraddha Kapoor,shraddhakapoor,Film,95000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Jacqueline Fernandez,jacquelinef143,Film,70000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Anushka Sharma,anushkasharma,Film,70000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Kareena Kapoor Khan,kareenakapoorkhan,Film,70000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Salman Khan,beingsalmankhan,Film,70000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Amitabh Bachchan,amitabhbachchan,Film,60000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Akshay Kumar,akshaykumar,Film,70000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Shah Rukh Khan,iamsrk,Film,45000000,,,,,,Gold league; check profile and Stories before marking not_posted
+Aamir Khan,aamirkhanofficial,Film,4000000,,,,,,Bronze league; check profile and Stories before marking not_posted
+Ranbir Kapoor,,Film,3000000,,,,,,Bronze league; verify handle and follower count before import
+Rashmika Mandanna,rashmika_mandanna,Film,45000000,,,,,,Gold league; pan-India film creator; check profile and Stories before marking not_posted
+Allu Arjun,alluarjunonline,Film,28000000,,,,,,Silver league; Telugu film industry; check profile and Stories before marking not_posted
+Mahesh Babu,urstrulymahesh,Film,25000000,,,,,,Silver league; Telugu film industry; check profile and Stories before marking not_posted
+Prabhas,actorprabhas,Film,20000000,,,,,,Silver league; Telugu film industry; check profile and Stories before marking not_posted
+Vijay Thalapathy,,Film,15000000,,,,,,Silver league; Tamil film industry; verify official handle before import
+Suriya Sivakumar,actorsuriya,Film,10000000,,,,,,Bronze league; Tamil film industry; check profile and Stories before marking not_posted
+Mammootty,mammootty,Film,10000000,,,,,,Bronze league; Malayalam film industry; check profile and Stories before marking not_posted
+Mohanlal,actor_mohanlal,Film,10000000,,,,,,Bronze league; Malayalam film industry; check profile and Stories before marking not_posted
+Puneeth Rajkumar,,Film,0,,,,,,Do not import without verification; legacy Kannada film figure
+Rishab Shetty,rishabshettyofficial,Film,5000000,,,,,,Bronze league; Kannada film industry; verify handle and follower count
+Yash,thenameisyash,Film,12000000,,,,,,Silver league; Kannada film industry; check profile and Stories before marking not_posted
+Kriti Sanon,kritisanon,Film,50000000,,,,,,Gold league; check profile and Stories before marking not_posted
+Kiara Advani,kiaraaliaadvani,Film,40000000,,,,,,Silver league; check profile and Stories before marking not_posted
+Samantha Ruth Prabhu,samantharuthprabhuoffl,Film,35000000,,,,,,Silver league; check profile and Stories before marking not_posted
+Nayanthara,,Film,10000000,,,,,,Bronze league; verify official handle before import
+A R Rahman,arrahman,Music,30000000,,,,,,Silver league; check profile and Stories before marking not_posted
+Shreya Ghoshal,shreyaghoshal,Music,35000000,,,,,,Silver league; check profile and Stories before marking not_posted
+Arijit Singh,arijitsingh,Music,15000000,,,,,,Silver league; check profile and Stories before marking not_posted
+Neha Kakkar,nehakakkar,Music,80000000,,,,,,Diamond league; check profile and Stories before marking not_posted
+Jasleen Royal,jasleenroyal,Music,2000000,,,,,,Bronze league; check profile and Stories before marking not_posted
+Karan Johar,karanjohar,Film,15000000,,,,,,Silver league; check profile and Stories before marking not_posted
+Kylie Jenner,,Film,0,,,,,,Not Indian; remove this row before import
+Bhuvan Bam,bhuvan.bam22,Comedy,20000000,,,,,,Silver league; check profile and Stories before marking not_posted
+Ashish Chanchlani,ashishchanchlani,Comedy,30000000,,,,,,Silver league; check profile and Stories before marking not_posted
+Amit Bhadana,amitbhadana,Comedy,10000000,,,,,,Bronze league; check profile and Stories before marking not_posted
+Kusha Kapila,kushakapila,Comedy,4000000,,,,,,Bronze league; check profile and Stories before marking not_posted
+Dolly Singh,dollysingh,Comedy,2000000,,,,,,Bronze league; check profile and Stories before marking not_posted
+Komal Pandey,komalpandey,Fashion,2000000,,,,,,Bronze league; check profile and Stories before marking not_posted
+Masoom Minawala,massoomfashion,Fashion,1000000,,,,,,Bronze league; check profile and Stories before marking not_posted
+Kylie Massey,,Education,0,,,,,,Placeholder only; replace with a verified Indian education creator
+Physics Wallah,physicswallah,Education,1000000,,,,,,Bronze league; institutional account; check profile and Stories before marking not_posted
+Khan Sir,,Education,0,,,,,,Verify official Instagram handle and follower count before import
+Ranveer Allahbadia,beerbiceps,Education,5000000,,,,,,Bronze league; check profile and Stories before marking not_posted
+Raj Shamani,rajshamani,Business,2000000,,,,,,Bronze league; check profile and Stories before marking not_posted
+Nikhil Kamath,nikhilkamathcio,Business,1000000,,,,,,Bronze league; check profile and Stories before marking not_posted

@@ -6,7 +6,7 @@
       "from": "2026-09-01",
       "to": "2026-10-10"
     },
-    "updatedAt": "2026-10-10T12:00:00+05:30",
+    "updatedAt": "2026-10-10T14:23:18.124Z",
     "platformFocus": "instagram",
     "sample": false,
     "notice": "Follower counts are approximate and every status is being verified. Creators marked 'not checked yet' have not been reviewed, which says nothing about whether they posted.",
@@ -48,7 +48,7 @@
       "id": "dhruv-rathee",
       "name": "Dhruv Rathee",
       "category": "Education",
-      "followers": 9000000,
+      "followers": 18000000,
       "followersApprox": true,
       "handles": {
         "instagram": "dhruvrathee"
@@ -63,6 +63,13 @@
           "url": "https://scroll.in/article/1096273/why-are-they-stealing-our-votes-bengaluru-protest-brings-frustration-with-sir-to-the-fore",
           "summary": "Joined the Freedom Park protest in Bengaluru on voting rights and the SIR",
           "source": "Scroll"
+        },
+        {
+          "date": "2026-10-08",
+          "platform": "instagram",
+          "depth": 3,
+          "url": "https://instagram.com/reel/DePOF8CAZj0/",
+          "summary": "Spoke at a public event about transparency concerns in the electoral-roll revision process"
         }
       ]
     },
@@ -86,6 +93,13 @@
           "url": "https://scroll.in/article/1096273/why-are-they-stealing-our-votes-bengaluru-protest-brings-frustration-with-sir-to-the-fore",
           "summary": "Addressed the Freedom Park protest crowd and called for the SIR to be scrapped",
           "source": "Scroll"
+        },
+        {
+          "date": "2026-10-08",
+          "platform": "instagram",
+          "depth": 3,
+          "url": "https://indianexpress.com/article/cities/bangalore/cjp-bangalore-protest-dhruv-rathee-prakash-raj-abhijeet-dipke-chappal-protest-sir-gyanesh-kumar-resignation-10911869/",
+          "summary": "Addressed a public gathering regarding the electoral-roll revision process"
         }
       ]
     },
@@ -106,7 +120,7 @@
       "id": "shraddha-kapoor",
       "name": "Shraddha Kapoor",
       "category": "Film",
-      "followers": 94000000,
+      "followers": 95000000,
       "followersApprox": true,
       "handles": {
         "instagram": "shraddhakapoor"
@@ -119,7 +133,7 @@
       "id": "priyanka-chopra",
       "name": "Priyanka Chopra",
       "category": "Film",
-      "followers": 92000000,
+      "followers": 90000000,
       "followersApprox": true,
       "handles": {
         "instagram": "priyankachopra"
@@ -132,7 +146,7 @@
       "id": "alia-bhatt",
       "name": "Alia Bhatt",
       "category": "Film",
-      "followers": 86000000,
+      "followers": 85000000,
       "followersApprox": true,
       "handles": {
         "instagram": "aliaabhatt"
@@ -171,7 +185,7 @@
       "id": "neha-kakkar",
       "name": "Neha Kakkar",
       "category": "Music",
-      "followers": 78000000,
+      "followers": 80000000,
       "followersApprox": true,
       "handles": {
         "instagram": "nehakakkar"
@@ -197,7 +211,7 @@
       "id": "akshay-kumar",
       "name": "Akshay Kumar",
       "category": "Film",
-      "followers": 67000000,
+      "followers": 70000000,
       "followersApprox": true,
       "handles": {
         "instagram": "akshaykumar"
@@ -223,7 +237,7 @@
       "id": "shah-rukh-khan",
       "name": "Shah Rukh Khan",
       "category": "Film",
-      "followers": 48000000,
+      "followers": 45000000,
       "followersApprox": true,
       "handles": {
         "instagram": "iamsrk"
@@ -236,7 +250,7 @@
       "id": "ranveer-singh",
       "name": "Ranveer Singh",
       "category": "Film",
-      "followers": 47000000,
+      "followers": 80000000,
       "followersApprox": true,
       "handles": {
         "instagram": "ranveersingh"
@@ -275,7 +289,7 @@
       "id": "amitabh-bachchan",
       "name": "Amitabh Bachchan",
       "category": "Film",
-      "followers": 38000000,
+      "followers": 60000000,
       "followersApprox": true,
       "handles": {
         "instagram": "amitabhbachchan"
@@ -314,7 +328,7 @@
       "id": "ashish-chanchlani",
       "name": "Ashish Chanchlani",
       "category": "Comedy",
-      "followers": 16000000,
+      "followers": 30000000,
       "followersApprox": true,
       "handles": {
         "instagram": "ashishchanchlani"
@@ -340,7 +354,7 @@
       "id": "ranveer-allahbadia",
       "name": "Ranveer Allahbadia",
       "category": "Podcast",
-      "followers": 7000000,
+      "followers": 5000000,
       "followersApprox": true,
       "handles": {
         "instagram": "beerbiceps"
@@ -353,10 +367,546 @@
       "id": "kusha-kapila",
       "name": "Kusha Kapila",
       "category": "Comedy",
-      "followers": 3500000,
+      "followers": 4000000,
       "followersApprox": true,
       "handles": {
         "instagram": "kushakapila"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "shabana-azmi",
+      "name": "Shabana Azmi",
+      "category": "Film",
+      "followers": 1000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "azmishabana18"
+      },
+      "status": "spoke",
+      "checkedAt": "2026-10-10",
+      "posts": [
+        {
+          "date": "2026-10-02",
+          "platform": "instagram",
+          "depth": 2,
+          "url": "https://www.hindustantimes.com/entertainment/bollywood/shabana-azmi-calls-for-mumbai-protest-over-voter-list-concerns-cjp-shivaji-park-101790935334487.html",
+          "summary": "Shared a public video encouraging people to attend a protest concerning voter lists and voting rights"
+        }
+      ]
+    },
+    {
+      "id": "vishal-bhardwaj",
+      "name": "Vishal Bhardwaj",
+      "category": "Film",
+      "followers": 500000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "vishalrbhardwaj"
+      },
+      "status": "spoke",
+      "checkedAt": "2026-10-10",
+      "posts": [
+        {
+          "date": "2026-10-02",
+          "platform": "instagram",
+          "depth": 2,
+          "url": "https://www.indiatoday.in/movies/celebrities/story/shabana-azmi-vishal-bharadwaj-join-cjp-protest-against-electoral-roll-tampering-3008306-2026-10-02",
+          "summary": "Attended a public protest concerning electoral-roll revision and voting rights"
+        }
+      ]
+    },
+    {
+      "id": "vishal-dadlani",
+      "name": "Vishal Dadlani",
+      "category": "Music",
+      "followers": 700000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "vishaldadlani"
+      },
+      "status": "spoke",
+      "checkedAt": "2026-10-10",
+      "posts": [
+        {
+          "date": "2026-10-02",
+          "platform": "instagram",
+          "depth": 2,
+          "url": "https://www.indiatoday.in/movies/celebrities/story/shabana-azmi-vishal-bharadwaj-join-cjp-protest-against-electoral-roll-tampering-3008306-2026-10-02",
+          "summary": "Attended a public protest concerning electoral-roll revision and voting rights"
+        }
+      ]
+    },
+    {
+      "id": "rakhi-sawant",
+      "name": "Rakhi Sawant",
+      "category": "Film",
+      "followers": 4000000,
+      "followersApprox": true,
+      "handles": {},
+      "status": "spoke",
+      "checkedAt": "2026-10-10",
+      "posts": [
+        {
+          "date": "2026-10-04",
+          "platform": "instagram",
+          "depth": 1,
+          "url": "https://www.thestatesman.com/entertainment/bollywood/kahaan-bhaag-gayi-kangana-rakhi-sawant-takes-a-dig-at-bjp-mp-backs-gen-z-in-sir-voter-list-controversy-1503646673.html",
+          "summary": "Made public remarks about the electoral-roll revision controversy"
+        }
+      ]
+    },
+    {
+      "id": "narendra-modi",
+      "name": "Narendra Modi",
+      "category": "Politics",
+      "followers": 95000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "narendramodi"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "jacqueline-fernandez",
+      "name": "Jacqueline Fernandez",
+      "category": "Film",
+      "followers": 70000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "jacquelinef143"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "anushka-sharma",
+      "name": "Anushka Sharma",
+      "category": "Film",
+      "followers": 70000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "anushkasharma"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "kareena-kapoor-khan",
+      "name": "Kareena Kapoor Khan",
+      "category": "Film",
+      "followers": 70000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "kareenakapoorkhan"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "aamir-khan",
+      "name": "Aamir Khan",
+      "category": "Film",
+      "followers": 4000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "aamirkhanofficial"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "ranbir-kapoor",
+      "name": "Ranbir Kapoor",
+      "category": "Film",
+      "followers": 3000000,
+      "followersApprox": true,
+      "handles": {},
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "rashmika-mandanna",
+      "name": "Rashmika Mandanna",
+      "category": "Film",
+      "followers": 45000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "rashmika_mandanna"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "allu-arjun",
+      "name": "Allu Arjun",
+      "category": "Film",
+      "followers": 28000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "alluarjunonline"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "mahesh-babu",
+      "name": "Mahesh Babu",
+      "category": "Film",
+      "followers": 25000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "urstrulymahesh"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "prabhas",
+      "name": "Prabhas",
+      "category": "Film",
+      "followers": 20000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "actorprabhas"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "vijay-thalapathy",
+      "name": "Vijay Thalapathy",
+      "category": "Film",
+      "followers": 15000000,
+      "followersApprox": true,
+      "handles": {},
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "suriya-sivakumar",
+      "name": "Suriya Sivakumar",
+      "category": "Film",
+      "followers": 10000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "actorsuriya"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "mammootty",
+      "name": "Mammootty",
+      "category": "Film",
+      "followers": 10000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "mammootty"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "mohanlal",
+      "name": "Mohanlal",
+      "category": "Film",
+      "followers": 10000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "actor_mohanlal"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "puneeth-rajkumar",
+      "name": "Puneeth Rajkumar",
+      "category": "Film",
+      "followers": 0,
+      "followersApprox": true,
+      "handles": {},
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "rishab-shetty",
+      "name": "Rishab Shetty",
+      "category": "Film",
+      "followers": 5000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "rishabshettyofficial"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "yash",
+      "name": "Yash",
+      "category": "Film",
+      "followers": 12000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "thenameisyash"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "kriti-sanon",
+      "name": "Kriti Sanon",
+      "category": "Film",
+      "followers": 50000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "kritisanon"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "kiara-advani",
+      "name": "Kiara Advani",
+      "category": "Film",
+      "followers": 40000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "kiaraaliaadvani"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "samantha-ruth-prabhu",
+      "name": "Samantha Ruth Prabhu",
+      "category": "Film",
+      "followers": 35000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "samantharuthprabhuoffl"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "nayanthara",
+      "name": "Nayanthara",
+      "category": "Film",
+      "followers": 10000000,
+      "followersApprox": true,
+      "handles": {},
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "a-r-rahman",
+      "name": "A R Rahman",
+      "category": "Music",
+      "followers": 30000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "arrahman"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "shreya-ghoshal",
+      "name": "Shreya Ghoshal",
+      "category": "Music",
+      "followers": 35000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "shreyaghoshal"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "arijit-singh",
+      "name": "Arijit Singh",
+      "category": "Music",
+      "followers": 15000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "arijitsingh"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "jasleen-royal",
+      "name": "Jasleen Royal",
+      "category": "Music",
+      "followers": 2000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "jasleenroyal"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "karan-johar",
+      "name": "Karan Johar",
+      "category": "Film",
+      "followers": 15000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "karanjohar"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "kylie-jenner",
+      "name": "Kylie Jenner",
+      "category": "Film",
+      "followers": 0,
+      "followersApprox": true,
+      "handles": {},
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "amit-bhadana",
+      "name": "Amit Bhadana",
+      "category": "Comedy",
+      "followers": 10000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "amitbhadana"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "dolly-singh",
+      "name": "Dolly Singh",
+      "category": "Comedy",
+      "followers": 2000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "dollysingh"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "komal-pandey",
+      "name": "Komal Pandey",
+      "category": "Fashion",
+      "followers": 2000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "komalpandey"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "masoom-minawala",
+      "name": "Masoom Minawala",
+      "category": "Fashion",
+      "followers": 1000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "massoomfashion"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "kylie-massey",
+      "name": "Kylie Massey",
+      "category": "Education",
+      "followers": 0,
+      "followersApprox": true,
+      "handles": {},
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "physics-wallah",
+      "name": "Physics Wallah",
+      "category": "Education",
+      "followers": 1000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "physicswallah"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "khan-sir",
+      "name": "Khan Sir",
+      "category": "Education",
+      "followers": 0,
+      "followersApprox": true,
+      "handles": {},
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "raj-shamani",
+      "name": "Raj Shamani",
+      "category": "Business",
+      "followers": 2000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "rajshamani"
+      },
+      "status": "unchecked",
+      "checkedAt": null,
+      "posts": []
+    },
+    {
+      "id": "nikhil-kamath",
+      "name": "Nikhil Kamath",
+      "category": "Business",
+      "followers": 1000000,
+      "followersApprox": true,
+      "handles": {
+        "instagram": "nikhilkamathcio"
       },
       "status": "unchecked",
       "checkedAt": null,
