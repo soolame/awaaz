@@ -1,0 +1,68 @@
+name: Add a post
+description: Seen a public post or appearance we missed? Help keep the board accurate.
+title: "Add post: "
+labels: ["add-post"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep Awaaz accurate. Please only submit posts that are
+        public and that you can link to directly — we score substance, not stance,
+        so keep the summary neutral.
+
+  - type: input
+    id: creator
+    attributes:
+      label: Creator
+      description: The name of the creator as it appears on the board (or should appear, if new).
+      placeholder: "Dhruv Rathee"
+    validations:
+      required: true
+
+  - type: input
+    id: handle
+    attributes:
+      label: Instagram handle
+      description: Without the @.
+      placeholder: "dhruvrathee"
+    validations:
+      required: false
+
+  - type: input
+    id: url
+    attributes:
+      label: Post URL
+      description: Direct link to the post, story archive, or public coverage.
+      placeholder: "https://instagram.com/p/..."
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: When the post or appearance happened (YYYY-MM-DD).
+      placeholder: "2026-10-10"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: depth
+    attributes:
+      label: Suggested depth
+      description: "1 = a passing mention, 2 = a substantive post, 3 = standing on stage / explaining at length."
+      options:
+        - "1 - mention"
+        - "2 - substantive"
+        - "3 - explainer / in-person"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Short neutral summary
+      description: What they did, without characterizing which side they took.
+      placeholder: "Joined the Freedom Park protest in Bengaluru on voting rights and the SIR"
+    validations:
+      required: true
