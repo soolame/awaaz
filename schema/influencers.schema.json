@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/soolame/awaaz/schema/influencers.schema.json",
+  "title": "Awaaz influencer data",
+  "description": "Data contract for public/data/influencers.json. See CLAUDE.md for scoring and fairness rules.",
+  "type": "object",
+  "required": ["meta", "creators"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": { "$ref": "#/$defs/meta" },
+    "creators": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/creator" }
+    }
+  },
+  "$defs": {
+    "isoDate": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "tier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "league", "max"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "league": { "type": "string", "minLength": 1 },
+        "max": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "issue",
+        "issueSlug",
+        "window",
+        "updatedAt",
+        "platformFocus",
+        "sample",
+        "notice",
+        "tiers"
+      ],
+      "properties": {
+        "issue": { "type": "string", "minLength": 1 },
+        "issueSlug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "window": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["from", "to"],
+          "properties": {
+            "from": { "$ref": "#/$defs/isoDate" },
+            "to": { "$ref": "#/$defs/isoDate" }
+          }
+        },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "platformFocus": { "type": "string", "minLength": 1 },
+        "sample": { "type": "boolean" },
+        "notice": { "type": "string" },
+        "tiers": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/tier" }
+        }
+      }
+    },
+    "handles": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "instagram": { "type": "string" },
+        "x": { "type": "string" }
+      }
+    },
+    "post": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "platform", "depth", "url", "summary"],
+      "properties": {
+        "date": { "$ref": "#/$defs/isoDate" },
+        "platform": { "enum": ["instagram", "x", "public"] },
+        "depth": { "enum": [1, 2, 3] },
+        "url": { "type": "string", "format": "uri", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 },
+        "source": { "type": "string" }
+      }
+    },
+    "creator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "category",
+        "followers",
+        "followersApprox",
+        "handles",
+        "status",
+        "checkedAt",
+        "posts"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "name": { "type": "string", "minLength": 1 },
+        "category": { "type": "string", "minLength": 1 },
+        "followers": { "type": "integer", "minimum": 0 },
+        "followersApprox": { "type": "boolean" },
+        "needsVerify": { "type": "boolean" },
+        "handles": { "$ref": "#/$defs/handles" },
+        "status": { "enum": ["spoke", "no_post_found", "unchecked"] },
+        "checkedAt": {
+          "anyOf": [{ "$ref": "#/$defs/isoDate" }, { "type": "null" }]
+        },
+        "posts": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/post" }
+        }
+      }
+    }
+  }
+}
