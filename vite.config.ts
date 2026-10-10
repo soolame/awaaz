@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/awaaz/',
+  base: '/',
   plugins: [react(), tailwindcss()],
   test: {
     environment: 'node',
