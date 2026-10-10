@@ -108,6 +108,23 @@ npm run mark -- add "<name>" <instagram_handle> <followers> <category>
 Incoming `add-post` and `correction` issues (see `.github/ISSUE_TEMPLATE/`) are community
 submissions — verify each one yourself before marking a creator spoke on the strength of it.
 
+### Crowdsourcing with friends
+
+To split the checking work across people who don't have GitHub access, send them
+`contributions/template.csv` (instructions in `contributions/HOW_TO_FILL.md`) to fill in a
+spreadsheet tool and hand back. Then import it in one go:
+
+```bash
+npm run import -- <path-to-filled-csv>
+```
+
+This adds new creators, records posts, marks creators quiet, and refreshes follower counts —
+applying the same rules as `mark` (no duplicate posts, no marking someone quiet if they already
+have a counted post, etc.) — and validates the result before writing anything, so a bad row
+never corrupts the data file. It prints a summary of what changed and skips (with a reason) any
+row it can't safely apply. Commit and push the result same as any other data change; the
+leaderboard rebuilds from the file automatically, no separate step needed.
+
 ## License
 
 MIT, see [LICENSE](LICENSE).

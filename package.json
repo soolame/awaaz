@@ -10,7 +10,8 @@
     "test": "vitest run",
     "lint": "eslint .",
     "validate": "node scripts/validate.mjs",
-    "mark": "node scripts/mark.mjs"
+    "mark": "node scripts/mark.mjs",
+    "import": "node scripts/import.mjs"
   },
   "dependencies": {
     "framer-motion": "^14.1.0",

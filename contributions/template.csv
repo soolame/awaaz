@@ -1,0 +1,3 @@
+name,instagram_handle,category,followers,status,post_url,post_date,depth,summary,notes
+EXAMPLE - delete this row,dhruvrathee,News,18000000,posted,https://instagram.com/p/exampleXYZ,2026-10-05,2,Posted about the SIR revision and voter list concerns,delete this row once you understand the format
+EXAMPLE - delete this row,virat.kohli,Sports,270000000,not_posted,,,,,"checked profile and Stories on 2026-10-09, nothing on the issue"

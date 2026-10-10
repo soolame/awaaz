@@ -1,13 +1,5 @@
 #!/usr/bin/env node
-import { readFileSync, writeFileSync } from 'node:fs'
-import { fileURLToPath } from 'node:url'
-import path from 'node:path'
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const root = path.resolve(__dirname, '..')
-const dataPath = path.join(root, 'public/data/influencers.json')
-
-const COUNTED_PLATFORMS = new Set(['instagram', 'public'])
+import { COUNTED_PLATFORMS, today, slugify, loadData, saveData } from './lib/data-contract.mjs'
 
 function usageAndExit(message) {
   if (message) console.error(`✖ ${message}\n`)
@@ -16,28 +8,6 @@ function usageAndExit(message) {
   npm run mark -- <id> spoke <url> <depth 1-3> "<summary>"
   npm run mark -- add "<name>" <instagram_handle> <followers> <category>`)
   process.exit(1)
-}
-
-function today() {
-  return new Date().toISOString().slice(0, 10)
-}
-
-function slugify(name) {
-  return name
-    .toLowerCase()
-    .normalize('NFKD')
-    .replace(/\p{Diacritic}/gu, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-}
-
-function loadData() {
-  return JSON.parse(readFileSync(dataPath, 'utf8'))
-}
-
-function saveData(data) {
-  data.meta.updatedAt = new Date().toISOString()
-  writeFileSync(dataPath, `${JSON.stringify(data, null, 2)}\n`)
 }
 
 function findCreator(data, id) {
