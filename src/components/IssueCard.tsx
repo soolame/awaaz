@@ -1,4 +1,5 @@
 import { formatDateLong } from '../format'
+import { BallotIcon } from './icons'
 
 interface IssueCardProps {
   issue: string
@@ -11,8 +12,8 @@ export default function IssueCard({ issue, updatedAt, spoke, total }: IssueCardP
   return (
     <div className="glass-panel rounded-[22px] p-4">
       <div className="flex items-start justify-between gap-3">
-        <span className="accent-gradient flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-xl">
-          🗳️
+        <span className="accent-gradient flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-black/80">
+          <BallotIcon className="h-[22px] w-[22px]" />
         </span>
         <span className="rounded-full border border-accent-from/40 px-2.5 py-1 text-[11px] font-semibold text-accent-from">
           Voices {spoke}/{total}

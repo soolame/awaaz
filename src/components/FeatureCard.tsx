@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 import { motion } from 'framer-motion'
 
 interface FeatureCardProps {
-  icon: string
+  icon: ReactNode
   title: string
   description: string
   children?: ReactNode
@@ -14,7 +14,7 @@ export default function FeatureCard({ icon, title, description, children }: Feat
       <div className="flex items-start gap-3">
         <motion.span
           whileHover={{ rotate: -6 }}
-          className="accent-gradient flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-lg"
+          className="accent-gradient flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-black/80"
         >
           {icon}
         </motion.span>

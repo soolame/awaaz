@@ -1,8 +1,21 @@
-import { useState } from 'react'
+import { useState, type ComponentType } from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
 import type { EnrichedCreator } from '../lib/scoring'
 import { avatarColor, formatDateShort, initials, instagramUrl } from '../format'
 import { useCountUp } from '../useCountUp'
+import {
+  SproutIcon,
+  SpeechIcon,
+  MegaphoneIcon,
+  FlameIcon,
+  BookIcon,
+  PlacardIcon,
+  SignalIcon,
+  CalendarIcon,
+  SparkleIcon,
+  MedalIcon,
+  type IconProps,
+} from './icons'
 
 const LEVEL_INDEX: Record<string, number> = {
   'First words': 1,
@@ -11,22 +24,22 @@ const LEVEL_INDEX: Record<string, number> = {
   Torchbearer: 4,
 }
 
-const LEVEL_ICON: Record<string, string> = {
-  'First words': '🌱',
-  'Steady voice': '📣',
-  Amplifier: '📢',
-  Torchbearer: '🔥',
+const LEVEL_ICON: Record<string, ComponentType<IconProps>> = {
+  'First words': SproutIcon,
+  'Steady voice': SpeechIcon,
+  Amplifier: MegaphoneIcon,
+  Torchbearer: FlameIcon,
 }
 
 const LEVEL_THRESHOLDS = [0, 25, 50, 75]
 
-const ACHIEVEMENT_ICON: Record<string, string> = {
-  Explainer: '📖',
-  'Showed up': '🪧',
-  'On a streak': '🔥',
-  'Big reach': '📡',
-  Consistent: '🗓️',
-  'Broke format': '🎭',
+const ACHIEVEMENT_ICON: Record<string, ComponentType<IconProps>> = {
+  Explainer: BookIcon,
+  'Showed up': PlacardIcon,
+  'On a streak': FlameIcon,
+  'Big reach': SignalIcon,
+  Consistent: CalendarIcon,
+  'Broke format': SparkleIcon,
 }
 
 const RANK_TINT: Record<number, { bg: string; ring: string }> = {
@@ -105,19 +118,19 @@ export default function RankRow({ creator, rank }: RankRowProps) {
               </span>
             </span>
             <span className="mt-0.5 hidden items-center gap-1.5 text-xs text-white/65 sm:flex">
-              <span>{LEVEL_ICON[creator.level]}</span>
+              {(() => {
+                const LevelIcon = LEVEL_ICON[creator.level]
+                return <LevelIcon className="h-3.5 w-3.5" />
+              })()}
               <span>{creator.level}</span>
-              {creator.badges.map((badge) => (
-                <span
-                  key={badge}
-                  title={badge}
-                  aria-label={badge}
-                  role="img"
-                  className="rounded-md bg-white/5 px-1 py-0.5"
-                >
-                  {ACHIEVEMENT_ICON[badge] ?? '🏅'}
-                </span>
-              ))}
+              {creator.badges.map((badge) => {
+                const BadgeIcon = ACHIEVEMENT_ICON[badge] ?? MedalIcon
+                return (
+                  <span key={badge} title={badge} aria-label={badge} className="rounded-md bg-white/5 px-1 py-0.5">
+                    <BadgeIcon className="h-3 w-3" />
+                  </span>
+                )
+              })}
             </span>
           </span>
 
@@ -143,7 +156,12 @@ export default function RankRow({ creator, rank }: RankRowProps) {
           </div>
           <div className="mt-1 flex items-center justify-between text-[10px] text-white/55">
             <span>{xp.label}</span>
-            {creator.streak > 0 && <span>🔥 {creator.streak}-week streak</span>}
+            {creator.streak > 0 && (
+              <span className="inline-flex items-center gap-1">
+                <FlameIcon className="h-3 w-3" />
+                {creator.streak}-week streak
+              </span>
+            )}
           </div>
         </div>
 

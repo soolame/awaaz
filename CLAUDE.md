@@ -5,7 +5,7 @@ on a public issue (currently: electoral integrity and the right to peaceful prot
 Goal: encourage people to speak up by celebrating those who do. Never harass or shame.
 
 ## Stack
-- Vite + React + TypeScript, Tailwind CSS, Framer Motion, Vitest.
+- Vite + React + TypeScript, Tailwind CSS, Framer Motion, GSAP, Vitest.
 - Static build deployed to GitHub Pages via GitHub Actions. Vite `base` = "/<repo-name>/".
 - Data lives in `public/data/influencers.json` and is fetched at runtime.
 - Phase 2 (later): FastAPI + SQLite backend in `/server`, hosted on a VM, returning the

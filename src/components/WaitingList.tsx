@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import type { EnrichedCreator } from '../lib/scoring'
 import { addPostUrlFor } from '../config'
 import { avatarColor, formatFollowers, initials, instagramUrl } from '../format'
+import { MicOffIcon } from './icons'
 
 interface WaitingListProps {
   quiet: EnrichedCreator[]
@@ -50,12 +51,9 @@ export default function WaitingList({ quiet, unchecked }: WaitingListProps) {
                 </span>
                 <div className="min-w-0">
                   <p className="truncate text-sm font-semibold text-white">{creator.name}</p>
-                  <span
-                    role="img"
-                    aria-label="Muted microphone"
-                    className="inline-flex items-center gap-1 text-[11px] text-white/55"
-                  >
-                    🔇 Quiet
+                  <span className="inline-flex items-center gap-1 text-[11px] text-white/55">
+                    <MicOffIcon className="h-3 w-3" />
+                    Quiet
                   </span>
                 </div>
               </div>

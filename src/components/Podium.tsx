@@ -1,6 +1,7 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import type { EnrichedCreator } from '../lib/scoring'
 import Trophy, { type TrophyVariant } from './Trophy'
+import { SparkleIcon } from './icons'
 
 interface Slot {
   rank: 1 | 2 | 3
@@ -109,18 +110,18 @@ export default function Podium({ topThree, tierLabel }: PodiumProps) {
               {slot.rank === 1 && slot.creator && !reduceMotion && (
                 <>
                   <motion.span
-                    className="absolute -left-3 -top-2 text-lg"
+                    className="absolute -left-3 -top-2 text-rank-gold"
                     animate={{ opacity: [0, 1, 0], scale: [0.6, 1, 0.6] }}
                     transition={{ duration: 1.6, repeat: Infinity, delay: 1.4 }}
                   >
-                    ✨
+                    <SparkleIcon className="h-4 w-4" />
                   </motion.span>
                   <motion.span
-                    className="absolute -right-3 top-4 text-lg"
+                    className="absolute -right-3 top-4 text-rank-gold"
                     animate={{ opacity: [0, 1, 0], scale: [0.6, 1, 0.6] }}
                     transition={{ duration: 1.6, repeat: Infinity, delay: 2.1 }}
                   >
-                    ✨
+                    <SparkleIcon className="h-4 w-4" />
                   </motion.span>
                 </>
               )}

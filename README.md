@@ -11,7 +11,7 @@ on which side of it they're on. Every point on the board links back to a public 
 
 - Vite + React + TypeScript
 - Tailwind CSS v4
-- Framer Motion
+- Framer Motion, with GSAP for a few hand-tuned moments (e.g. the achievements grid reveal)
 - Vitest
 
 The site is a static build, deployed to GitHub Pages. A future phase will add a FastAPI +

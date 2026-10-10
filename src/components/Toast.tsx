@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
+import { TrophyIcon } from './icons'
 
 interface ToastProps {
   message: string | null
@@ -23,9 +24,10 @@ export default function Toast({ message, onDismiss, duration = 5000 }: ToastProp
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 10, scale: 0.95 }}
           transition={{ type: 'spring', stiffness: 260, damping: 22 }}
-          className="glass-panel fixed bottom-5 left-1/2 z-50 -translate-x-1/2 rounded-full px-4 py-2.5 text-sm font-medium text-white shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
+          className="glass-panel fixed bottom-5 left-1/2 z-50 flex -translate-x-1/2 items-center gap-2 rounded-full px-4 py-2.5 text-sm font-medium text-white shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
         >
-          🏆 {message}
+          <TrophyIcon className="h-4 w-4 text-accent-from" />
+          {message}
         </motion.div>
       )}
     </AnimatePresence>

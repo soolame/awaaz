@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { formatDateLong } from '../format'
+import { MegaphoneIcon } from './icons'
 
 const NAV_ITEMS = [
   { id: 'leaderboard', label: 'Leaderboard' },
@@ -38,8 +39,8 @@ export default function TopBar({ updatedAt }: { updatedAt: string }) {
       className="sticky top-0 z-40 glass-panel mx-auto mt-3 flex max-w-7xl flex-wrap items-center justify-between gap-3 rounded-2xl px-4 py-3 sm:mx-3 lg:mx-auto"
     >
       <a href="#top" className="flex items-center gap-2.5">
-        <span className="accent-gradient flex h-10 w-10 items-center justify-center rounded-xl text-xl shadow-[0_6px_18px_rgba(255,111,181,0.35)]">
-          📣
+        <span className="accent-gradient flex h-10 w-10 items-center justify-center rounded-xl text-black/80 shadow-[0_6px_18px_rgba(255,111,181,0.35)]">
+          <MegaphoneIcon className="h-5 w-5" />
         </span>
         <span className="font-heading text-xl font-bold tracking-tight">Awaaz</span>
       </a>
